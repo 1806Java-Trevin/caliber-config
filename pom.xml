@@ -48,7 +48,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.revature.caliber.config.Application</mainClass>
+					<mainClass>com.revature.caliber.config.SpringCloudConfigServerApplication</mainClass>
 					<addResources>true</addResources>
 				</configuration>
 				<executions>
