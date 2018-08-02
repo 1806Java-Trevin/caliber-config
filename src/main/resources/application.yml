@@ -6,9 +6,9 @@ spring:
     config:
       server:
         git:
-          uri: ${CALIBER_CONFIG_GIT_URI}
-          username: ${CALIBER_CONFIG_GIT_USERNAME}
-          password: ${CALIBER_CONFIG_GIT_PASSWORD}
+          uri: ${CALIBER_CONFIG_REPO_URL}
+          username: ${CALIBER_CONFIG_REPO_USERNAME}
+          password: ${CALIBER_CONFIG_REPO_PASSWORD}
   application:
     name: caliber-config
     
