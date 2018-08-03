@@ -8,6 +8,6 @@ public class MainTest {
 
 	@Test
 	public void testMain() {
-		assertEquals("This is a passing test", "Test", "Test");
+		assertEquals("This is a passing test", "Test", SpringCloudConfigServerApplication.getTest());
 	}
 }

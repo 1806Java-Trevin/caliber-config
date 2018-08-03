@@ -13,4 +13,7 @@ public class SpringCloudConfigServerApplication {
 		SpringApplication.run(SpringCloudConfigServerApplication.class, args);
 	}
 	
+	public static String getTest() {
+		return "Test";
+	}
 }
