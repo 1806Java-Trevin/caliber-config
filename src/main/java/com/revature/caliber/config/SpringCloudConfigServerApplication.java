@@ -9,11 +9,13 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @EnableConfigServer
 public class SpringCloudConfigServerApplication {
 
+	private static String test = "Test";
+	
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(SpringCloudConfigServerApplication.class, args);
 	}
 	
 	public static String getTest() {
-		return "Test";
+		return test;
 	}
 }
