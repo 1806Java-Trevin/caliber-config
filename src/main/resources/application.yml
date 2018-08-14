@@ -9,4 +9,3 @@ spring:
           uri: ${CALIBER_CONFIG_REPO_URL}
   application:
     name: caliber-config
-    
